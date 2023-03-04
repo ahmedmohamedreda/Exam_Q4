@@ -1,11 +1,11 @@
-# Selenium - Page Object Model
+# Selenium - SHAFT_ENGINE
 
 ## What is it
-Selenium POM (Page Object Model) is a Java framework that provides ability to describe your web application as a hierarchy of models. It also adds helper methods for most common functions such us double click, or get value.
+SHAFT is a unified test automation engine. Powered by best-in-class frameworks, SHAFT provides a wizard-like syntax to drive your automation efficiently, maximize your ROI, and minimize your learning curve. Stop reinventing the wheel. Upgrade now:
 
 ## Requirements
 ```
-• Java 8
+• Java 15
 ```
 
 ## Dependencies
@@ -23,7 +23,7 @@ Selenium POM (Page Object Model) is a Java framework that provides ability to de
 
 ### Updations and Implementations:
 ```
-• the website that used: https://www.saucedemo.com/ 
+• the website that used:(https://www.nagwa.com/) 
 • Create project maven with POM (Page Object Model)
 • create the page, tests, and utilities packages
 • Create pages for locators and actions
@@ -34,22 +34,17 @@ Selenium POM (Page Object Model) is a Java framework that provides ability to de
 • upload the project on GitHub
 ```
 
-### Using selenium webdriver automate the following scenario:
+### Using selenium to automate the following scenario:
 ```
-1- Login with credentials provided by website (https://www.saucedemo.com/)
-2- Sort the procduct from low to hige price and add it to cart
-3- Proceed to checkout
-4- Add required data in your information screen
-5- Complete checkout process
-6- Assert on completion of order
+1. Open Nagwa website.
+2. Choose a language to open the home page.
+3. Use the search icon to start searching on Nagwa lessons.
+4. Write any lesson name for example “addition” then search.
+5. A list with all lessons in Nagwa that match this name will appear.
+6. Click on 2nd lesson in the search results to open its home page.
+7. Go to worksheet section then click preview button.
+8. Worksheet home page will open then count number of questions displayed on it and 
+print the count.
+9- Assert the count number of questions
 ```
-
-
-### Installing Drivers
-Whichever browser you choose to run your automation on, you need to make sure to install the latest driver for that browser compatible with your target version of Selenium WebDriver.
-
-### Here are the official homes for several of the major drivers:
-```
-• ChromeDriver - https://sites.google.com/a/chromium.org/chromedriver/downloads
-• IEDriver - http://selenium-release.storage.googleapis.com/index.html?path=2.53/
 ```
