@@ -34,8 +34,9 @@ SHAFT is a unified test automation engine. Powered by best-in-class frameworks, 
   Run your TestClass.java as a TestNG Test Class.
   The execution report will open automatically in your default web browser after the test run is completed.
   Join our GitHub Repo stars to get notified by email when a new release is pushed out.
-  After upgrading your Engine to a new major release it is sometimes recommended to delete the properties folder src\main\resources\properties and allow SHAFT to
-  regenerate the defaults by running any test method.
+  After upgrading your Engine to a new major release it is sometimes recommended to delete 
+  the properties folder src\main\resources\properties and allow SHAFT to regenerate the defaults
+  by running any test method.
 • upload the project on GitHub
 
 ```
