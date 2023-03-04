@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+allure-results
+target
+*.html
+# Editor directories and files
+.idea
+.DS_Store
